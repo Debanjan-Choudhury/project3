@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Planets of the Solar System</h1>
+            <nav>
+                <ul>
+                    <li><a href="/project2/index.html">home</a></li>
+                    <li><a href="/project2/planet.html">planets</a></li>
+                    <li><a href="/project2/form_validation.html">contact</a></li>
+                </ul>
+                <button id="menuButton">☰ Menu</button>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="form-validation">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+            <div id="messageContainer"></div>
+        </section>
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>

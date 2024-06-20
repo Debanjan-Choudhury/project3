@@ -1,0 +1,337 @@
+body {
+    background-image: url(./0045.png);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgba(255, 255, 255, 0.01); /* Adjust the last value (0.8) to change opacity */
+}
+
+header {
+background: rgba(107, 104, 104, 0.2);
+
+box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
+backdrop-filter: blur(.5px);
+
+
+    /*box-shadow: 0 -6px 10px 5px rgba(248, 247, 247, 0.5);*/
+    color: #ffffff;
+    padding: 20px;
+}
+
+nav ul {
+    
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: #f0f8ff;
+}
+
+footer {
+    background: rgba(91, 125, 171, 0.2);
+
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.1);
+    color: #ffffff;
+    
+    position: fixed;
+    bottom: 0;
+   
+    width: 100%;
+    
+}
+
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #fffbfb;
+}
+
+h3 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #fffbfb;
+    padding: 20px;
+    border: 10px;
+}
+h2 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #fffbfb;
+    padding: 5px;
+    border: 5px;
+}
+p {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    border: 10px;
+    color: #dbdafb;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 50%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #0073e6;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #f3f3f3;
+}
+
+label{
+    color: #ffffff;
+}
+
+@media (max-width: 1200px) {
+    .container {
+      max-width: 1140px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .container {
+      max-width: 960px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .container {
+      max-width: 540px;
+    }
+  }
+
+/* Add this to your existing styles.css file */
+
+/* Basic styles for header and navigation */
+.header-content {
+    display: flex;
+    justify-content: center; /* Center the header content */
+    align-items: center;
+    flex-direction: column;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Center the navigation menu */
+    gap: 1em;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Styles for mobile menu */
+#menuButton {
+    display: none;
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+    }
+
+    #menuButton {
+        display: block;
+        margin-top: 1em;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    nav ul.open {
+        display: flex;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0.5em 0;
+    }
+}
+/* Add this to your existing styles.css file */
+
+/* Basic styles for header and navigation */
+.header-content {
+    display: flex;
+    justify-content: center; /* Center the header content */
+    align-items: center;
+    flex-direction: column;
+    padding: 1em;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center; /* Center the navigation menu */
+    gap: 1em;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* Styles for mobile menu */
+#menuButton {
+    display: none;
+    font-size: 1.5em;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column;
+    }
+
+    #menuButton {
+        display: block;
+        margin-top: 1em;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    nav ul.open {
+        display: flex;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 0.5em 0;
+    }
+}
+
+/* Styles for the form */
+#form-validation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    max-width: 400px;
+    width: 100%;
+}
+
+#contactForm label {
+    font-weight: bold;
+}
+
+#contactForm input, #contactForm textarea {
+    padding: 0.5em;
+    font-size: 1em;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#contactForm button {
+    padding: 0.5em 1em;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#contactForm button:hover {
+    background-color: #0056b3;
+}
+
+#messageContainer {
+    margin-top: 1em;
+    font-weight: bold;
+}
+
